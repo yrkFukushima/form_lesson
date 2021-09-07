@@ -272,9 +272,6 @@
   margin-top: 8px;
   position: relative;
 }
-/* .select-area select {
-  appearance: none;
-} */
 
 .select-area > .input-area {
   margin-top: 0;
@@ -347,4 +344,10 @@
 }
 .submit-btn:hover {
   background-color: #01a6a4;
+}
+
+.submit-btn:active {
+  background-color: #fff;
+  color: #01a6a4;
+  border-color: #d9d9d9;
 }
